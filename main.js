@@ -5,6 +5,7 @@ import inquirer from "inquirer";
 // 3) Compare both numbers and show result.
 const randomNumber = Math.floor(Math.random() * 4 + 1);
 // console.log(randomNumber);
+console.log("Welcome to the number guessing game!");
 const answer = await inquirer.prompt([{
         message: "Please guess a number between 1-5", type: "number", name: "UserGuessedNumber"
     }]);
