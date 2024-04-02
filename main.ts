@@ -9,7 +9,7 @@ import inquirer from "inquirer"
 const randomNumber = Math.floor(Math.random()*4+ 1);
 // console.log(randomNumber);
 
-console.log("Welcome to the number guessing game!")
+console.log(" Hello, Welcome to the number guessing game!")
 
 
 const answer = await inquirer.prompt ([{
